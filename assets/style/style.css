@@ -1,0 +1,218 @@
+*, html, body{
+padding: none;
+margin: none;
+box-sizing: border-box;
+list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrap{
+    min-width: 100%;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 70px 0px;
+    box-sizing: content-box;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 38px;
+    text-align: center;
+    
+}
+
+p{ 
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    line-height: 28px;
+    text-transform: uppercase;  
+}
+.wrap-text{
+    text-align: center;
+    padding: 50px;
+}
+
+.box-1-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;    
+}
+
+
+.box-text > h3{
+    font-family: 'Montserrat';
+    padding: 10px 30px;
+    font-size: 30px;
+    line-height: 28px;
+  
+
+}
+
+.box-text > p{
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Merriweather';
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.cool{
+    background-color: #f9f9f9;
+}
+
+.box-2-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(300px, auto);
+    gap: 15px;
+
+}
+
+.grid-servic-1{
+    background: url(../img/services/services1.png) no-repeat center;
+    background-size: cover;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+    grid-column: 1/8;
+
+}
+.box-text{
+    text-align: left;
+    padding: 70px;
+    background: url(../img/fon-2.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.box-text:hover{
+    background: url(../img/fona.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    color: #f9f9f9;
+}
+
+.grid-servic-2{
+    background: url(../img/services/services2.png) no-repeat center;
+    background-size: cover;
+    -ms-grid-column: 8;
+    -ms-grid-column-span: 5;
+    grid-column: 8/13;
+ 
+}
+
+.grid-servic-3{
+    background: url(../img/services/services3.png) no-repeat center;
+    background-size: cover; 
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+    grid-column: 1/8;
+    
+  
+}
+.grid-servic-4{
+    background: url(../img/services/services4.png) no-repeat center;
+    background-size: cover;
+    -ms-grid-column: 8;
+    -ms-grid-column-span: 5;
+    grid-column: 8/13;
+  
+}
+
+.grid-servic-5{
+    background: url(../img/services/services5.png) no-repeat center;
+    background-size: cover;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-column: 1/6;
+    
+}
+.grid-servic-6{
+    background: url(../img/services/services6.png) no-repeat center;
+    background-size: cover;
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 7;
+    grid-column: 6/13;
+   
+}
+
+
+
+.link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color:black;
+    margin-left: 190px;
+    margin-top: 70px;
+}
+
+.link:hover{
+    color: #f9f9f9;
+    margin-left: 180px;
+    font-size: 25px;
+}
+
+
+.box-3-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:15px;
+}
+.man{
+    position: relative;
+}
+.text{
+    opacity: 0;
+    position: absolute;
+    bottom: 5px;
+    background: url(../img/fona.png) no-repeat center;
+    background-size: cover;
+    width: 90%; 
+    margin-left: 20px;
+    padding: 10px;
+    
+}
+.text:hover{
+    opacity: 1;
+    transition: all 0.5s linear;
+}
+.text::after{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    background: url(../img/fona.png) no-repeat center;
+    background-size: cover;
+    width: 90%; 
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.text > h2{
+    font-size: 20px;
+}
+.text > p{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.info li{
+    display: inline-block;
+    margin: 5px;  
+}
+
+.img1{
+    width: 100%;
+}
+
